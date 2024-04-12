@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(191, 239, 191);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#panel {
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#platepl {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(119, 225, 119);
+    display: flex;
+    padding: 0 30%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.elem h2 {
+    font-weight: 700;
+}
+
+.bord {
+    padding: 8px 20px;
+    color: rgb(68, 108, 68);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#platedp {
+    height: calc(100% - 100px);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.bubble {
+    height: 58px;
+    width: 58px;
+    background-color: rgb(109, 210, 109);
+    border-radius: 50%;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: rgb(68, 108, 68);
+}
